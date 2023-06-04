@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <section class="principal">
+        <div class="principal__result">
+            <h1 class="principal__title">Your Result</h1>
+            <div class="principal__scored">
+                <p class="principal__total__scored">76</p>
+                <p class="principal__range__scored">of 100</p>
+            </div>
+            <h2 class="principal__secondary--title">Great</h2>
+            <p class="principal__text">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+
+        <div class="principal__summary">
+            <h2 class="summary__title">Summary</h2>
+            <div class="summary__itens" style="--background-summary-item: hsl(0, 100%, 67%, 0.1); color:hsl(0, 100%, 67%)">
+                <div class="summary__description">
+                    <img src="assets/images/icon-reaction.svg" alt="Icon Reaction">
+                    <p>Reaction</p>
+                </div>
+                <p class="summary__text"><strong class="summary__contrast">80 </strong> / 100</p>
+            </div>
+            <div class="summary__itens" style="--background-summary-item: hsla(39, 100%, 56%, 0.1); color: hsl(39, 100%, 56%)">
+                <div class="summary__description">
+                    <img src="assets/images/icon-memory.svg" alt="Icon Memory">
+                    <p>Memory</p>
+                </div>
+                <p class="summary__text"> <strong class="summary__contrast">92</strong>  / 100</p>
+            </div>
+            <div class="summary__itens" style="--background-summary-item:hsl(166, 100%, 37%, 0.1); color: hsl(166, 100%, 37%)">
+                <div class="summary__description">
+                    <img src="assets/images/icon-verbal.svg" alt="Icon Verbal">
+                    <p>Verbal</p>
+                </div>
+                <p class="summary__text"> <strong class="summary__contrast">61</strong> / 100</p>
+            </div>
+            <div class="summary__itens" style="--background-summary-item: hsl(234, 85%, 45%, 0.1); color: hsl(234, 85%, 45%)">
+                <div class="summary__description">
+                    <img src="assets/images/icon-visual.svg" alt="Icon Visual">
+                    <p>Visual</p>
+                </div>
+                <p class="summary__text"> <strong class="summary__contrast">72</strong> / 100</p>
+            </div>
+            <a href="#" class="summary__link">Continue</a>
+        </div>
+    </section>
+</body>
+
+</html>
